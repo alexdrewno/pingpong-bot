@@ -7,9 +7,9 @@ export default (client: Client): void => {
         }
 
         if (
-            (message.content === 'ping' &&
-                message.author.id === '242816688129572864') ||
-            message.author.id === '139114165523447809'
+            message.content === 'ping' &&
+            (message.author.id === '242816688129572864' ||
+                message.author.id === '139114165523447809')
         ) {
             message.channel.send('pong')
         }
