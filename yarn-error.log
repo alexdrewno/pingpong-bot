@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/alexdrewno/.nvm/versions/node/v18.9.0/bin/node /Users/alexdrewno/.npm-global/bin/yarn install
+
+PATH: 
+  /Users/alexdrewno/.nvm/versions/node/v18.9.0/bin:/Users/alexdrewno/.nvm/versions/node/v18.9.0/bin:/Users/alexdrewno/.nvm/versions/node/v14.16.0/bin:/Users/alexdrewno/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/alexdrewno/.nvm/versions/node/v14.16.0/bin:/Users/alexdrewno/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/alexdrewno/.npm-global/bin:/Users/alexdrewno/.npm-global/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.9.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/alexdrewno/Desktop/everything/pingpong-bot/package.json: Unexpected string in JSON at position 291
+      at JSON.parse (<anonymous>)
+      at /Users/alexdrewno/.npm-global/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/alexdrewno/.npm-global/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/alexdrewno/.npm-global/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "music-bot",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+          "start": "ts-node src/Bot.ts"
+      },
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+          "discord.js": "^14.9.0",
+          "dotenv": "^16.0.3"
+          "ts-node": "^10.9.1",
+      },
+      "devDependencies": {
+          "@types/node": "^18.15.11",
+          "@typescript-eslint/eslint-plugin": "^5.58.0",
+          "@typescript-eslint/parser": "^5.58.0",
+          "eslint": "^8.38.0",
+          "eslint-plugin-prettier": "^4.2.1",
+          "prettier": "^2.8.7",
+          "typescript": "^5.0.4"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
