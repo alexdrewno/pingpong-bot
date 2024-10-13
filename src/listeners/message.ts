@@ -3,7 +3,6 @@ import { Client, Events } from 'discord.js'
 const AUTHORIZED_USERS = [
     '242816688129572864',
     '139114165523447809',
-    '204659941892554752',
 ]
 
 export default (client: Client): void => {
